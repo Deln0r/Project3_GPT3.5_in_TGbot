@@ -1,2 +1,2 @@
 # TGbot_gpt
-Gpt to TG
+An easy way to communicate with gpt via telegram
