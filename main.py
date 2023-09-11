@@ -2,8 +2,8 @@ import os
 import openai
 import telebot
 
-openai.api_key = os.getenv("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")
-bot = telebot.TeleBot('6433321126:AAFcB0fo9HPNOK6KurCVJ2cW-rHpTK8DT4Y')
+openai.api_key = os.getenv("")
+bot = telebot.TeleBot('')
 
 @bot.message_handler(func=lambda _: True)
 def handle_message(message):
@@ -18,3 +18,4 @@ def handle_message(message):
 
 bot.polling()
 
+1
